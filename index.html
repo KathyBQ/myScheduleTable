@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Schedule for Name - UCSD Username - Quarter, Year</title>
+    <link rel="stylesheet" href="styleLab2.css">
+</head>
+
+<body>
+    <dl>
+        <dt>How to define a <strong>table</strong>? Describe when to use the following HTML elements: &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;, &lt;thead&gt;, &lt;tfoot&gt;, &lt;caption&gt;.</dt>
+        <dd>- &lt;table&gt; .... &lt;/table&gt;</dd>
+        <dd>- &lt;tr&gt;: the table row.</dd>
+        <dd>- &lt;th&gt;: the heading cell in the table.</dd>
+        <dd>- &lt;td&gt;: the data cell in the table.</dd>
+        <dd>- &lt;thead&gt;: group header content in the table. It should have one or more &lt;tr&gt; inside.</dd>
+        <dd>- &lt;tfoot&gt;: group footer content in the table. It should have one or more &lt;tr&gt; inside.</dd>
+        <dd>- &lt;caption&gt;: define a title for the table. By default, it will be center-aligned above the table.</dd>
+        <br>
+        <dt>What is the difference between <strong>colspan</strong> and <strong>rowspan</strong>?</dt>
+        <dd>- colspan allows a single table cell to span the width of more than one cell or column, while rowspan is to allow a single table cell to span the height of more than one cell or row.</dd>
+        <br>
+        <dt>What is the difference between cells spacing and padding?</dt>
+        <dd>- cells spacing refers to the distance between the cells in a grid layout, while cell padding refers to the space around each cell.</dd>
+        <br>
+        <dt>How do you define table borders using CSS?</dt>
+        <dd>- &lt;table border=&quot;2&quot;&gt; .... &lt;/table&gt; (2 means 2 pixels)</dd>
+        <br>
+        <dt>How do you control border widths using CSS?</dt>
+        <dd>- border-width: top_and_bottom_val left_and_right_val;</dd>
+        <br>
+    </dl>
+
+    <table border="2">
+        <caption>My Schedule Table</caption>
+        <tr>
+            <th>&nbsp;</th>
+            <th>7-8am</th>
+            <th>8-9am</th>
+            <th>9-10am</th>
+            <th>10-11am</th>
+            <th>11-12pm</th>
+            <th>12-1pm</th>
+            <th>1-2pm</th>
+            <th>2-3pm</th>
+            <th>3-4pm</th>
+            <th>4-5pm</th>
+            <th>5-6pm</th>
+            <th>6-7pm</th>
+        </tr>
+        <tr>
+            <th class="time">Monday</th>
+            <td rowspan="7">
+                <img src="images/breakfast.jpg" width="130" height="100" alt="breakfast">
+                <p><a class="a" href="https://www.health.com/25-high-protein-breakfast-ideas-to-keep-you-full-7566320">have breakfast</a></p>
+            </td>
+            <td rowspan="7">
+                <img src="images/workout.jpg" width="130" height="100" alt="workout">
+                <p><a class="a" href="https://www.self.com/gallery/best-workout-programs-for-women">morning workout</a></p>
+            </td>
+            <td rowspan="7" colspan="2">
+                <img src="images/class.jpg" width="130" height="100" alt="class">
+                <p><a class="a" href="https://www.thoughtco.com/why-go-to-class-793298">have class</a></p>
+            </td>
+            <td rowspan="7">
+                <img src="images/lunch.jpg" width="130" height="100" alt="lunch">
+                <p><a class="a" href="https://en.wikivoyage.org/wiki/Chinese_cuisine">have lunch</a></p>
+            </td>
+            <td rowspan="7" colspan="2">
+                <img src="images/hw.jpg" width="130" height="100" alt="homework">
+                <p><a class="a" href="https://blog.goformz.com/post/5-creative-ways-to-make-digital-homework-assignments-more-engaging">do homework</a></p>
+            </td>
+            <td rowspan="7">
+                <img src="images/nap.jpg" width="130" height="100" alt="nap">
+                <p><a class="a" href="https://www.glamourmagazine.co.uk/article/how-to-nap">take a nap</a></p>
+            </td>
+            <td rowspan="7">
+                <img src="images/read.jpg" width="130" height="100" alt="reading">
+                <p><a class="a" href="https://www.newyorker.com/humor/daily-shouts/what-are-you-reading">read fictions</a></p>
+            </td>
+            <td rowspan="7">
+                <img src="images/shopping.jpg" width="130" height="100" alt="shopping">
+                <p><a class="a" href="https://www.forbes.com/sites/blakemorgan/2022/12/15/inside-the-shopping-experience-of-the-future/">go shopping with friends</a></p>
+            </td>
+            <td rowspan="7">
+                <img src="images/dinner.jpg" width="130" height="100" alt="dinner">
+                <p><a class="a" href="https://www.realsimple.com/food-recipes/recipe-collections-favorites/quick-easy/fast-dinner-recipes-0">have dinner</a></p>
+            </td>
+            <td rowspan="7">
+                <img src="images/walk.jpg" width="130" height="100" alt="walking">
+                <p><a class="a" href="https://www.nbcnews.com/better/health/why-walking-most-underrated-form-exercise-ncna797271">walk after dinner</a></p>
+            </td>
+        </tr>
+        <tr>
+            <th class="time">Tuesday</th>
+        </tr>
+        <tr>
+            <th class="time">Wednesday</th>
+        </tr>
+        <tr>
+            <th class="time">Thursday</th>
+        </tr>
+        <tr>
+            <th class="time">Friday</th>
+        </tr>
+        <tr>
+            <th class="time">Saturday</th>
+        </tr>
+        <tr>
+            <th class="time">Sunday</th>
+        </tr>
+    </table>
+</body>
+</html>

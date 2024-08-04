@@ -1,0 +1,39 @@
+th {
+    color: blueviolet;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    background-color:beige;
+    border-color: greenyellow;
+    border-width: 2px;
+    padding: 0.2%;
+}
+
+td {
+    text-align: center;
+    background-color:antiquewhite;
+}
+
+caption {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    background-color:aquamarine;
+}
+
+.time {
+    color: darkblue;
+}
+
+.a:link {
+    color:blue;
+}
+.a:visited {
+    color:forestgreen;
+}
+.a:active {
+    color:crimson;
+}
+.a:hover {
+    cursor: cell;
+}
